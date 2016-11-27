@@ -9,5 +9,6 @@
     "gmapkey": "GOOGLE_MAPS_API_KEY",
     "encrypt_location": "",
     "telegram_token": "",
-    "discord_token": ""
+    "discord_token": "",
+    "2captcha_token": ""
 }

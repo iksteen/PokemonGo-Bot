@@ -730,6 +730,7 @@ def init_config():
     config.encrypt_location = load.get('encrypt_location', '')
     config.telegram_token = load.get('telegram_token', '')
     config.discord_token = load.get('discord_token', '')
+    config.twocaptcha_token = load.get('2captcha_token', '')
     config.catch = load.get('catch', {})
     config.release = load.get('release', {})
     config.plugins = load.get('plugins', [])
