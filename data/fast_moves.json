@@ -1,5 +1,6 @@
 [{"id":222,"name":"Pound","type":"Normal","damage":7,"duration":540,"energy":7,"dps":12.96},
 {"id":228,"name":"Metal Claw","type":"Steel","damage":8,"duration":630,"energy":7,"dps":12.69},
+{"id":242,"name":"Transformation","type":"Normal","damage":0,"duration":1230,"energy":7,"dps":0.0},
 {"id":226,"name":"Psycho Cut","type":"Psychic","damage":7,"duration":570,"energy":7,"dps":12.28},
 {"id":210,"name":"Wing Attack","type":"Flying","damage":9,"duration":750,"energy":7,"dps":12.0},
 {"id":202,"name":"Bite","type":"Dark","damage":6,"duration":500,"energy":7,"dps":12.0},
