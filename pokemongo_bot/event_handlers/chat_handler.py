@@ -187,7 +187,7 @@ class ChatHandler:
 
         if order not in ["cp", "iv", "dated"]:
             order = "iv"
-        pkmns = sorted(inventory.pokemons().all(), key=lambda p: getattr(p, order), reverse=True)[:num]
+        pkmns = sorted(inventory.pokemons().all(), key=lambda p: getattr(p, order, None), reverse=True)[:num]
         res = []
         for p in pkmns:
             res.append([
